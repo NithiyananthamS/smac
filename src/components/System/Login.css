@@ -1,0 +1,36 @@
+.login{
+    display: grid;
+    place-items: center;
+    background-color: rgb(224, 224, 224);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.loginContainer{
+    width: 32vw;
+    height: 60vh;
+    background-color: rgb(235, 235, 235);
+    border: 1px solid rgb(100, 100, 100);
+    box-shadow: 0 0 12px rgba(68, 68, 68, 0.6);
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.buttonHolder{
+    position: relative;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 60px;
+}
+
+.appTitle{
+    font-size: 60px;
+    color: rgb(110, 110, 110);
+    margin-top: 100px;
+}
